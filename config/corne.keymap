@@ -14,13 +14,13 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | ESC  |
-// | ALT  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+// | ALT  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | ESC  |
+// | TAB  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | LSHIFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RSHIFT |
-//                    | LWR | LGUI | SPC |   | CTRL/ENT | BKSP  | RSE |
+//                    | LWR | LCTRL | SPC |   | RGUI/ENT | BKSP  | RSE |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp ESC
-   &kp LALT &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &kp LALT   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp ESC
+   &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
                   &mo 1 &kp LCTRL &kp SPACE   &mt RGUI RET &kp BSPC &mo 2
                         >;
@@ -29,12 +29,12 @@
 // -----------------------------------------------------------------------------------------
 // | CAPS |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |   \  |
 // |      |  1  |  2  |  3  |  4  |  5  |   |  -  |  =  |  `  |  [  |  ]  |  "|" |
-// |      |  6  |  7  |  8  |  9  |  0  |   |  _  |  +  |  ~  |  {  |  }  |      |
-//                    |     |LGUI| SPC |   | CTRL/ENT | BKSP |     |
+// |      |  6  |  7  |  8  |  9  |  0  |   |  _  |  +  |  ~  |  {  |  }  |   .  |
+//                    |     |LCTRL| SPC |   | RGUI/ENT | BKSP |     |
                         bindings = <
    &kp CAPS &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT  &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp BSLH
    &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp MINUS &kp EQUAL &kp GRAVE &kp LBKT &kp RBKT &kp PIPE
-   &trans &kp N6 &kp N7 &kp N8 &kp N9 &kp N0   &kp UNDER &kp PLUS &kp TILDE &kp LBRC &kp RBRC &trans
+   &trans &kp N6 &kp N7 &kp N8 &kp N9 &kp N0   &kp UNDER &kp PLUS &kp TILDE &kp LBRC &kp RBRC &kp DOT
                   &trans &kp LCTRL &kp SPACE   &mt RGUI RET &kp BSPC &trans
                         >;
                 };
