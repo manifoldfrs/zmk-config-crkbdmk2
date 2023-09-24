@@ -1,4 +1,6 @@
 # zmk-config-crkbdmk2
+![IMG_7742 copy](https://github.com/manifoldfrs/zmk-config-crkbdmk2/assets/25749800/6baa5716-19fd-4d1a-b938-231ec5f88619)
+
 [Official Build Guide](https://docs.typeractive.xyz/build-guides/corne-wireless)
 
 🛠 Parts:
